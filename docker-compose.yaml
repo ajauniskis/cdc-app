@@ -1,0 +1,17 @@
+version: "3.9"
+
+x-creds-common:
+  &creds-common
+  environment:
+    POSTGRES_HOST: postgres
+    POSTGRES_DB: staging
+    POSTGRES_USER: user
+    POSTGRES_PASSWORD: password
+
+services:
+
+  postgres:
+    <<: *creds-common
+    image: postgres
+    ports:
+      - 5432:5432
