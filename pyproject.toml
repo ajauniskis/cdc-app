@@ -6,6 +6,9 @@ authors = ["ajauniskis <jauniskis.a@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.10.4"
+SQLAlchemy = "^1.4.39"
+psycopg2-binary = "^2.9.3"
+pandas = "^1.4.3"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"

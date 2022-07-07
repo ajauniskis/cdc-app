@@ -6,3 +6,6 @@ install: venv_setup
 
 venv_setup:
 	python3 -m venv $(venv_dir)
+
+run:
+	docker-compose up

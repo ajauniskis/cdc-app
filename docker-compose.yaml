@@ -15,3 +15,14 @@ services:
     image: postgres
     ports:
       - 5432:5432
+
+  postgres-init:
+    <<: *creds-common
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    volumes:
+      - ./app:/opt/app
+    entrypoint: python3 initial.py
