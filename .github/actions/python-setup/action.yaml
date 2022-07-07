@@ -1,0 +1,33 @@
+name: Python Setup
+
+runs:
+  using: composite
+  steps:
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10.4"
+        architecture: "x64"
+
+    - name: Install Poetry
+      shell: bash
+      run: pip install poetry
+
+    - name: Poetry Cache
+      uses: actions/cache@v3
+      id: cache
+      with:
+        path: ./.venv
+        key: poetry-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+        restore-keys: poetry-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+
+    - name: Poetry config
+      shell: bash
+      run: |
+        poetry config virtualenvs.in-project true
+        poetry config virtualenvs.path ./.venv
+    - name: Install Python dependencies
+      shell: bash
+      run: poetry install
+      if: steps.cache.outputs.cache-hit != 'true'

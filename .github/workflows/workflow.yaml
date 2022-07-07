@@ -1,0 +1,37 @@
+name: Main Workflow
+on: 
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+
+  run-black:
+    name: Run Black
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: ./.github/actions/python-setup
+
+      - name: Lint python files
+        if: success() || failure()
+        run: poetry run black --check .
+
+  run-pyright:
+    name: Run Pyright
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: ./.github/actions/python-setup
+
+      - name: Type Check Python Files
+        if: success() || failure()
+        run: poetry run pyright .
