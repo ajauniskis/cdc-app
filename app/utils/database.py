@@ -14,10 +14,10 @@ def create_db_engine(
     password: str | None = None,
 ) -> Engine:
     try:
-        HOST = "localhost" or os.environ["POSTGRES_HOST"]
-        DATABASE = "staging" or os.environ["POSTGRES_DB"]
-        USER = "user" or os.environ["POSTGRES_USER"]
-        PASSWORD = "password" or os.environ["POSTGRES_PASSWORD"]
+        HOST = host or os.environ["POSTGRES_HOST"]
+        DATABASE = database or os.environ["POSTGRES_DB"]
+        USER = user or os.environ["POSTGRES_USER"]
+        PASSWORD = password or os.environ["POSTGRES_PASSWORD"]
     except KeyError as e:
         logger.info(f"Could not get database credentials: {e}")
         raise KeyError(f"Could not get database credentials: {e}")
