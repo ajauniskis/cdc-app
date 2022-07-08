@@ -41,3 +41,13 @@ def add_columns(table_name: str, columns: List[dict], engine: Engine) -> None:
 
     logger.info(f"Adding columns: {[c['name'] for c in columns]} to table {table_name}")
     engine.execute(sql)
+
+
+def insert_record(
+    engine: Engine,
+    table_name: str,
+    values: Dict[str, Any],
+):
+    table = Table(table_name, MetaData(bind=engine), autoload=True)
+    query = table.insert().values(values)
+    engine.execute(query)
