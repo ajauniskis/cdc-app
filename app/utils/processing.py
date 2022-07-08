@@ -51,3 +51,13 @@ def insert_record(
     table = Table(table_name, MetaData(bind=engine), autoload=True)
     query = table.insert().values(values)
     engine.execute(query)
+
+
+def update_record(engine: Engine, table_name: str, values: Dict[str, str]) -> None:
+    table = Table(table_name, MetaData(bind=engine), autoload=True)
+    query = (
+        table.update()
+        .where(table.c[f"{table_name}_id"] == values[f"{table_name}_id"])
+        .values(values)
+    )
+    engine.execute(query)
