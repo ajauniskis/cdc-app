@@ -20,3 +20,24 @@ def compare_schema(
         diff.remove("operation")
 
     return diff
+
+
+def add_columns(table_name: str, columns: List[dict], engine: Engine) -> None:
+    type_map = {
+        "object": "varchar",
+        "int64": "int4",
+        "float64": "float8",
+        "bool": "bool",
+    }
+    sql = f"""
+    ALTER TABLE public."{table_name}"
+    """
+
+    for c in columns:
+        sql = f"""
+        {sql}
+        ADD COLUMN {c['name']} {type_map[c['type']]}
+        """
+
+    logger.info(f"Adding columns: {[c['name'] for c in columns]} to table {table_name}")
+    engine.execute(sql)
