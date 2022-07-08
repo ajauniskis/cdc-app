@@ -31,6 +31,4 @@ order = Table(
     Column("first_name", String),
     Column("last_name", String),
     Column("is_order_deleted", Boolean),
-    Column("is_valid_record", Boolean),
-    Column("is_valid_record", Boolean),
 )

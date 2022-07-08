@@ -35,6 +35,6 @@ def create_db_engine(
     return engine
 
 
-metadata = MetaData()
-
 engine = create_db_engine()
+
+metadata = MetaData(bind=engine)
