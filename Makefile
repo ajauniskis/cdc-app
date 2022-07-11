@@ -11,7 +11,7 @@ venv_setup:
 astro:
 	curl -sSL install.astronomer.io | sudo bash -s
 
-run:
+start:
 	cd airflow; astro dev start
 
 stop:
