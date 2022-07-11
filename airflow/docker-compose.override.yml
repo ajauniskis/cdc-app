@@ -13,13 +13,13 @@ services:
   postgres-init:
     <<: *creds-common
     build:
-      context: ./init
-      dockerfile: Dockerfile
+      context: ../
+      dockerfile: airflow/init/Dockerfile
     depends_on:
       postgres:
         condition: service_healthy
     volumes:
-      - ./init/:/opt/app
+      - ../airflow/init/:/opt/app
     entrypoint: python3 initial.py
     networks:
       - airflow
