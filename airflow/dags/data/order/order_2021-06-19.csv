@@ -1,0 +1,10 @@
+operation,order_id,tax_amount,tax_excluded_amount,discount_amount,service_fee_amount,sales_amount,is_order_paid,order_created_at,order_updated_at,order_source,order_option,order_status,is_valid_record,employee_key,first_name,last_name,loyalty_applied
+INSERT,1513,0.65,0.57,0.71,0.74,36.74,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1514,0.84,1.06,3.69,2.52,63.35,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1515,0.24,1.16,4.25,1.38,69.97,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+UPDATE,1506,0.33,0.5,0.1,0.2,7,TRUE,2021-06-17 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Open,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1516,0.21,1.39,3.56,0.83,26.98,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1517,0.25,1.61,3.19,2.21,55.3,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1518,0.18,0.76,2.11,1.57,42.05,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1519,0.97,0.8,3.57,0.88,83.7,TRUE,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+DELETE,1514,0.84,1.06,3.69,2.52,63.35,TRUE,2021-06-19 14:37:57,2021-06-19 14:48:00,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
