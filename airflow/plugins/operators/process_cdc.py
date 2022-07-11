@@ -3,7 +3,7 @@ from os.path import basename, dirname, isfile, join
 from typing import Any, Dict, List
 
 import pandas as pd
-from airflow.hooks.postgres_hook import PostgresHook
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.models.baseoperator import BaseOperator
 from sqlalchemy import MetaData, Table
 from sqlalchemy.engine import Engine
