@@ -23,3 +23,10 @@ services:
     entrypoint: python3 initial.py
     networks:
       - airflow
+
+  postgres:
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
