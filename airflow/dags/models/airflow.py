@@ -1,3 +1,4 @@
+from datetime import datetime
 from airflow.models.variable import Variable
 from typing import Any
 
@@ -30,3 +31,18 @@ def environment_resolver(if_prod: Any, if_lower: Any) -> Any:
             return if_lower
     else:
         raise ValueError(f"Unknown Environment: {ENVIRONMENT}")
+
+
+def on_failure_callback(context) -> None:
+    # send slack message on task failure
+    print("SENDING SLACK MESSAGE WITH TASK FAILURE DETAILS")
+
+
+default_args = {
+    "owner": "ajauniskis",
+    "depends_on_past": False,
+    "retries": 3,
+    "start_date": datetime(2022, 1, 1),
+    "catchup": False,
+    "on_failure_callback": on_failure_callback,
+}
