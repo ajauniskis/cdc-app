@@ -1,5 +1,6 @@
 from typing import Any, Dict, List
 
+from models.order import order
 from sqlalchemy import MetaData, Table
 from sqlalchemy.engine import Engine
 
@@ -45,11 +46,11 @@ def add_columns(table_name: str, columns: List[dict], engine: Engine) -> None:
 
 def insert_record(
     engine: Engine,
-    table_name: str,
+    table: Table,
     values: Dict[str, Any],
 ):
-    table = Table(table_name, MetaData(bind=engine), autoload=True)
-    query = table.insert().values(values)
+    # table = Table(table_name, MetaData(bind=engine), autoload=True)
+    query = order.insert().values(values)
     engine.execute(query)
 
 

@@ -1,0 +1,32 @@
+version: "3.1"
+
+x-creds-common:
+  &creds-common
+  environment:
+    POSTGRES_HOST: postgres
+    POSTGRES_DB: postgres
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: postgres
+
+services:
+
+  postgres-init:
+    <<: *creds-common
+    build:
+      context: ../
+      dockerfile: airflow/init/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ../airflow/init/:/opt/app
+    entrypoint: python3 initial.py
+    networks:
+      - airflow
+
+  postgres:
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5

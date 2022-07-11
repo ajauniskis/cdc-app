@@ -2,6 +2,7 @@ import os
 
 import pandas as pd
 
+from models.order import order
 from utils.database import engine, metadata
 from utils.logger import logger
 from utils.processing import insert_record
@@ -9,7 +10,7 @@ from utils.utils import string_to_datetime
 
 
 def main() -> None:
-    file_path = "./data/Homework task @ Initial Data.csv"
+    file_path = "./data/order/initial_data.csv"
 
     metadata.create_all(engine)
 
@@ -25,7 +26,7 @@ def main() -> None:
     for _, record in df.iterrows():
         insert_record(
             engine,
-            "order",
+            order,
             record.to_dict(),
         )
         records += 1
