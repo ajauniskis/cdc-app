@@ -1,0 +1,17 @@
+airflow:
+  connections:
+    - conn_id: postgres
+      conn_type: postgres
+      conn_host: postgres
+      conn_schema: postgres
+      conn_login: postgres
+      conn_password: postgres
+      conn_port:
+      conn_extra:
+  pools:
+    - pool_name:
+      pool_slot:
+      pool_description:
+  variables:
+    - variable_name: environment
+      variable_value: dev
