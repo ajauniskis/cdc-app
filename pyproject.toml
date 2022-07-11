@@ -10,6 +10,7 @@ SQLAlchemy = ">=1.4"
 psycopg2-binary = "^2.9.3"
 pandas = "^1.4.3"
 apache-airflow = "2.3.2"
+apache-airflow-providers-postgres = "^5.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
