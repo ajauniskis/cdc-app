@@ -14,7 +14,7 @@ order = Table(
     "order",
     metadata,
     Column("id", Integer, Identity(start=1), primary_key=True),
-    Column("order_id", Integer),
+    Column("order_id", Integer, unique=True),
     Column("tax_amount", Float),
     Column("tax_excluded_amount", Float),
     Column("discount_amount", Float),
