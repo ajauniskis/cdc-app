@@ -140,6 +140,7 @@ class ProcessCdcOperator(BaseOperator):
                 "DELETE": 0,
             }
 
+            df.sort_values(by=f"{table_name}_updated_at", ascending=True, inplace=True)
             df.drop_duplicates(keep="last", inplace=True)
 
             for _, record in df.iterrows():
