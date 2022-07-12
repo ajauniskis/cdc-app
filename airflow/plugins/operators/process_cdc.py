@@ -140,7 +140,7 @@ class ProcessCdcOperator(BaseOperator):
                 "DELETE": 0,
             }
 
-            df.drop_duplicates(subset=[f"{table_name}_id"], keep="last", inplace=True)
+            df.drop_duplicates(keep="last", inplace=True)
 
             for _, record in df.iterrows():
                 if record.operation == "INSERT":
