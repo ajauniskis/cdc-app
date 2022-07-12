@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 env:
-  AIRFLOW_HOME: $GITHUB_WORKSPACE/airflow
+  AIRFLOW_HOME: ${{ github.workspace }}/airflow
 
 jobs:
 
