@@ -4,7 +4,9 @@ from os.path import abspath, basename, dirname
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
 from airflow.utils.task_group import TaskGroup
-from operators.process_cdc import ProcessCdcOperator
+from operators.process_cdc import (  # pyright: ignore [reportMissingImports] ## FIX WORKFLOW ENV
+    ProcessCdcOperator,
+)
 
 from models.airflow import default_args, environment_resolver
 
