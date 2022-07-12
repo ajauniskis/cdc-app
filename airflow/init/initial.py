@@ -15,6 +15,7 @@ def main() -> None:
     metadata.create_all(engine)
 
     if count_table_records(order, engine) > 0:
+        logger.info("Order table already populated")
         return
 
     df = pd.read_csv(file_path)
