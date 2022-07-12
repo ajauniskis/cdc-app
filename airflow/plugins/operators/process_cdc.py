@@ -3,10 +3,10 @@ from os.path import basename, dirname, isfile, join
 from typing import Any, Dict, List
 
 import pandas as pd
-from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.models.baseoperator import BaseOperator
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from sqlalchemy import MetaData, Table
-from sqlalchemy.engine import Engine
+from sqlalchemy.exc import IntegrityError
 
 
 class ProcessCdcOperator(BaseOperator):
@@ -147,10 +147,15 @@ class ProcessCdcOperator(BaseOperator):
                     record.drop(labels=["operation"], inplace=True)
                     record = record.to_dict()
                     record["is_order_deleted"] = False
-                    self.insert_record(
-                        table_name,
-                        record,
-                    )
+                    try:
+                        self.insert_record(
+                            table_name,
+                            record,
+                        )
+                    except IntegrityError as e:
+                        print(f"Failed to insert record: {record}", e)
+                        # SAVE record to ERRORS table
+
                     processed_records["INSERT"] += 1
 
                 elif record.operation == "UPDATE":
