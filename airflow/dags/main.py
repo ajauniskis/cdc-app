@@ -16,8 +16,8 @@ with DAG(
     basename(__file__).replace(".py", ""),
     description="Main pipeline for datalake.",
     schedule_interval=environment_resolver(
-        "0 1 * * 1-5",
-        None,
+        "0 1 * * 1-5",  # SCHEDULE ON PROD
+        None,  # SCHEDULE ON DEV
     ),
     default_args=default_args,
 ) as dag:
@@ -25,7 +25,9 @@ with DAG(
     with TaskGroup("staging_tables", tooltip="Staging Tables") as staging_tables:
         for dir in listdir(DATA_DIR_ROOT):
 
-            with TaskGroup(dir, tooltip=dir) as locals()[dir]:
+            with TaskGroup(dir, tooltip=dir) as locals()[
+                dir
+            ]:  # CREATING TG FOR EACH DIR IN ./data
 
                 process_cdc = ProcessCdcOperator(
                     task_id=f"process_{dir}",
