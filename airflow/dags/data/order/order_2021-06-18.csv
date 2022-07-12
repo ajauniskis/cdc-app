@@ -1,0 +1,10 @@
+operation,order_id,tax_amount,tax_excluded_amount,discount_amount,service_fee_amount,sales_amount,is_order_paid,order_created_at,order_updated_at,order_source,order_option,order_status,is_valid_record,employee_key,first_name,last_name,loyalty_applied
+INSERT,1507,0.81,3.56,0.69,2.52,50.74,TRUE,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1508,0.03,6.91,1.08,1.95,6.85,TRUE,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,To Go,Open,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+UPDATE,1503,0.53,16,1.43,1.7,12.13,TRUE,2021-06-17 14:37:57,2021-06-18 14:37:57,Quick Service,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1510,0.67,6.91,4.2,2.24,77.37,TRUE,2021-06-18 14:37:57,2021-06-18 14:37:57,Kiosk,To Go,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1511,0.38,7,1.86,0.34,87.69,TRUE,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,Eat In,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1512,0.02,8.96,0.16,0.77,82.79,TRUE,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,Delivery,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+INSERT,1512,0.02,8.96,0.16,0.77,82.79,TRUE,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,Delivery,Closed,TRUE,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,FALSE
+UPDATE,1208,0,0,0,0,34.99,TRUE,2021-06-16 13:48:43,2021-06-18 14:37:57,Kiosk,To Go,Closed,TRUE,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,FALSE
+UPDATE,673,0.85,0.85,0,0,10,TRUE,2021-06-15 15:39:56,2021-06-18 14:37:57,Quick Service,To Go,Closed,TRUE,5bb4aa5bf7598f4c0140f4ccd764d451,Catuus,Beow,TRUE

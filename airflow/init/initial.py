@@ -5,7 +5,7 @@ import pandas as pd
 from models.order import order
 from utils.database import engine, metadata
 from utils.logger import logger
-from utils.processing import insert_record
+from utils.processing import insert_record, count_table_records
 from utils.utils import string_to_datetime
 
 
@@ -13,6 +13,9 @@ def main() -> None:
     file_path = "./data/order/initial_data.csv"
 
     metadata.create_all(engine)
+
+    if count_table_records(order, engine) > 0:
+        return
 
     df = pd.read_csv(file_path)
 
