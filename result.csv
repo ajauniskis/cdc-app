@@ -1,0 +1,120 @@
+id,order_id,tax_amount,tax_excluded_amount,discount_amount,service_fee_amount,sales_amount,is_order_paid,order_created_at,order_updated_at,order_source,order_option,order_status,is_valid_record,employee_key,first_name,last_name,is_order_deleted,loyalty_applied
+1,13,0.45,0.0,0.0,0.0,5.0,True,2021-01-21 14:37:57,2021-01-21 14:38:06,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+2,17,1.36,0.0,0.0,0.0,15.0,True,2021-01-21 15:03:57,2021-01-21 15:04:28,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+3,79,0.0,0.0,0.0,0.0,26.0,True,2021-01-22 23:07:14,2021-01-22 23:07:24,Quick Service,To Go,Closed,True,60f528475602a9d3a0303828fcd77b0a,Curso,Danes,False,False
+4,88,0.0,0.0,0.0,0.0,25.75,True,2021-01-22 23:24:21,2021-01-22 23:24:43,Quick Service,Eat In,Closed,True,76ad690d12b6bb6ce61738c383d1c88d,Pronilus,Heathore,False,False
+5,103,0.0,0.0,0.0,0.0,32.5,True,2021-01-22 23:30:18,2021-01-22 23:30:38,Quick Service,Eat In,Closed,True,2b5234690fec1bc6e66b614050d380ae,Baculusius,Frisng,False,False
+6,105,0.0,0.0,0.0,0.0,42.0,True,2021-01-22 23:30:43,2021-01-22 23:30:47,Quick Service,To Go,Closed,True,60f528475602a9d3a0303828fcd77b0a,Curso,Danes,False,False
+7,108,0.0,0.0,0.0,0.0,60.0,True,2021-01-22 23:38:29,2021-01-22 23:38:45,Quick Service,Eat In,Closed,True,2b5234690fec1bc6e66b614050d380ae,Baculusius,Frisng,False,False
+8,110,0.0,0.0,0.0,0.0,25.0,True,2021-01-22 23:38:55,2021-01-22 23:39:09,Quick Service,Drive Through,Closed,True,60f528475602a9d3a0303828fcd77b0a,Curso,Danes,False,False
+9,116,1.9,1.9,0.0,0.0,19.0,True,2021-01-23 00:16:15,2021-01-23 00:17:38,Quick Service,Pickup,Closed,True,d46bbe177ba391db3b1833c8d14c1cfb,Sulliuslus,Hear,False,False
+10,122,0.82,0.0,0.0,0.0,9.0,True,2021-01-25 07:50:36,2021-01-25 07:51:04,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+11,176,0.0,0.0,0.0,0.0,12.0,True,2021-01-27 06:38:04,2021-01-27 06:41:14,Table Service,To Go,Closed,True,3d9ad023262e74793627ea7f841c4d5b,Atilinatavo,Ingwinhro,False,False
+12,177,0.0,0.0,0.0,0.0,12.0,True,2021-01-27 06:45:02,2021-01-27 06:48:45,Table Service,To Go,Closed,True,3d9ad023262e74793627ea7f841c4d5b,Atilinatavo,Ingwinhro,False,False
+13,179,0.0,0.0,0.0,0.0,30.0,False,2021-01-27 06:51:51,2021-01-27 06:51:53,Table Service,To Go,Open,True,3d9ad023262e74793627ea7f841c4d5b,Atilinatavo,Ingwinhro,False,False
+14,180,0.0,0.0,0.0,0.0,12.0,True,2021-01-27 07:11:11,2021-01-27 07:13:47,Table Service,To Go,Open,True,3d9ad023262e74793627ea7f841c4d5b,Atilinatavo,Ingwinhro,False,False
+15,182,0.0,0.0,0.0,0.0,36.0,False,2021-01-27 07:22:10,2021-01-27 07:22:13,Table Service,To Go,Open,True,3d9ad023262e74793627ea7f841c4d5b,Atilinatavo,Ingwinhro,False,False
+16,196,0.59,0.0,0.0,0.0,6.5,True,2021-01-29 10:01:21,2021-01-29 10:55:15,Web Order,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+17,200,0.59,0.0,0.0,0.0,6.5,True,2021-01-29 15:04:21,2021-01-29 15:04:43,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+18,223,0.82,0.0,0.0,0.0,14.0,False,2021-02-01 11:23:42,2021-02-01 11:24:30,Web Order,To Go,Open,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+19,231,0.45,0.0,0.0,0.0,5.0,True,2021-02-02 09:26:57,2021-02-02 13:16:10,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+20,232,0.73,0.0,0.0,0.0,8.0,True,2021-02-02 09:41:22,2021-02-02 13:16:20,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+21,255,0.45,0.0,0.0,0.0,5.0,True,2021-02-02 12:51:00,2021-02-02 13:16:30,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+22,265,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:17:05,2021-02-02 13:17:59,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+23,267,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:17:09,2021-02-02 13:18:19,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+24,271,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:17:20,2021-02-02 13:18:59,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+25,274,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:17:28,2021-02-02 13:19:33,Web Order,To Go,Open,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+26,278,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:24:14,2021-02-02 13:24:45,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+27,290,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:29:42,2021-02-02 13:30:15,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+28,291,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:29:44,2021-02-02 13:30:25,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+29,293,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:29:48,2021-02-02 13:30:45,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+30,294,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:34:57,2021-02-02 13:35:24,Web Order,To Go,Open,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+31,295,0.91,0.0,0.0,0.0,10.0,True,2021-02-02 13:49:56,2021-02-02 14:02:33,Web Order,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+32,297,0.91,0.0,0.0,0.0,10.0,False,2021-02-02 13:51:58,2021-02-02 13:52:05,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+33,303,0.59,0.0,0.0,0.0,6.5,True,2021-02-02 14:07:35,2021-02-02 14:10:44,Web Order,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+34,313,0.0,0.0,0.0,0.0,5.0,True,2021-02-03 08:44:57,2021-02-03 08:45:18,Quick Service,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+35,314,0.0,0.0,0.0,0.0,3.0,True,2021-02-03 08:45:21,2021-02-03 08:46:02,Quick Service,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+36,317,0.0,0.0,0.0,0.0,5.0,True,2021-02-03 08:53:27,2021-02-03 08:54:08,Quick Service,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+37,324,0.0,0.0,0.0,0.0,55.0,True,2021-02-03 09:04:18,2021-02-03 09:06:36,Quick Service,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+38,326,0.0,0.0,0.0,0.0,4.0,True,2021-02-03 09:07:07,2021-02-03 09:07:42,Kiosk,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+39,329,0.0,0.0,0.0,0.0,16.0,True,2021-02-03 09:38:45,2021-02-03 09:39:29,Kiosk,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+40,337,0.91,0.0,0.0,0.0,10.0,False,2021-02-05 10:50:20,2021-02-05 10:50:20,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+41,338,0.91,0.0,0.0,0.0,10.0,False,2021-02-05 10:53:05,2021-02-05 10:53:05,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+42,339,0.91,0.0,0.0,0.0,10.0,False,2021-02-05 10:56:13,2021-02-05 10:56:13,Web Order,To Go,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+43,3359,0.0,0.0,0.0,0.0,16.7,True,2021-05-19 14:25:47,2021-05-19 14:31:35,Table Service,Pickup,Open,True,544175190b725367d38c6eb225c8094c,Merginius,Hruntecg,False,False
+44,3592,0.0,0.0,0.1,0.0,10.9,True,2021-05-20 18:52:40,2021-05-20 19:23:30,Table Service,Pickup,Closed,True,544175190b725367d38c6eb225c8094c,Merginius,Hruntecg,False,False
+45,3623,0.0,0.0,0.0,0.0,16.7,True,2021-05-20 19:42:17,2021-05-20 19:43:13,Table Service,Pickup,Closed,True,544175190b725367d38c6eb225c8094c,Merginius,Hruntecg,False,False
+46,399,0.0,0.0,0.0,0.0,15.0,True,2021-06-15 08:27:22,2021-06-15 08:29:01,Table Service,To Go,Closed,True,2069313cdac3443cd5d767fbdb905db7,Pullustinus,Helmiar,False,False
+47,411,0.0,0.0,0.0,0.0,17.0,True,2021-06-15 08:47:27,2021-06-15 08:47:50,Table Service,To Go,Closed,True,2069313cdac3443cd5d767fbdb905db7,Pullustinus,Helmiar,False,False
+48,415,0.02,0.02,0.0,0.0,2.0,True,2021-06-15 08:50:38,2021-06-15 09:12:30,Table Service,To Go,Closed,True,168b9824c5a6a370fc3661007d461515,Paciussus,Jutes,False,False
+49,416,0.4,0.4,0.0,0.0,4.0,True,2021-06-15 08:51:19,2021-06-15 09:12:29,Table Service,To Go,Closed,True,168b9824c5a6a370fc3661007d461515,Paciussus,Jutes,False,False
+50,421,0.0,0.0,0.0,0.0,19.0,True,2021-06-15 09:05:29,2021-06-15 09:09:03,Table Service,To Go,Closed,True,2069313cdac3443cd5d767fbdb905db7,Pullustinus,Helmiar,False,False
+51,431,0.0,0.0,0.0,0.0,18.0,True,2021-06-15 09:18:39,2021-06-15 09:49:16,Table Service,To Go,Closed,True,2069313cdac3443cd5d767fbdb905db7,Pullustinus,Helmiar,False,False
+52,450,0.0,0.0,0.0,0.0,10.0,False,2021-06-15 09:47:48,2021-06-17 13:01:57,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+53,453,0.0,0.0,0.0,0.0,19.0,True,2021-06-15 09:51:10,2021-06-15 09:53:07,Table Service,To Go,Closed,True,2069313cdac3443cd5d767fbdb905db7,Pullustinus,Helmiar,False,False
+54,468,0.0,0.0,0.0,0.0,18.0,False,2021-06-15 10:16:48,2021-06-15 10:17:10,Kiosk,To Go,Open,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+55,473,0.0,0.0,1.0,0.0,3.0,False,2021-06-15 10:22:42,2021-06-15 10:22:51,Kiosk,To Go,Open,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+56,551,0.0,0.0,1.0,0.0,2.0,True,2021-06-15 13:54:17,2021-06-16 13:53:41,Kiosk,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+57,555,0.0,0.0,0.0,0.0,0.0,False,2021-06-15 13:57:05,2021-06-15 14:12:38,Table Service,To Go,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+58,564,0.0,0.0,0.0,0.0,8.0,False,2021-06-15 14:05:38,2021-06-15 14:05:45,Kiosk,To Go,Open,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+59,573,0.0,0.0,1.0,0.0,2.0,True,2021-06-15 14:13:54,2021-06-16 13:53:58,Kiosk,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+60,579,1.3,1.3,0.0,0.0,13.0,True,2021-06-15 14:17:01,2021-06-15 14:17:01,Table Service,To Go,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+61,595,0.0,0.0,0.0,0.0,12.0,False,2021-06-15 14:19:00,2021-06-15 14:19:00,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+62,597,16.0,16.0,0.0,0.0,160.0,True,2021-06-15 14:24:37,2021-06-15 15:00:59,Table Service,To Go,Closed,True,287368a34f3afac2e69edd5ca479c053,Cassiurba,Scherebhun,False,False
+63,611,2.95,2.95,0.0,0.0,29.5,True,2021-06-15 14:32:55,2021-06-15 14:38:04,Table Service,To Go,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+64,619,0.0,0.0,0.0,0.0,0.0,True,2021-06-15 14:43:07,2021-06-15 14:43:24,Table Service,Delivery,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+65,622,0.0,0.0,1.0,0.0,4.0,False,2021-06-15 14:46:16,2021-06-15 14:47:19,Kiosk,To Go,Open,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+66,626,1.0,1.0,0.0,0.0,10.0,True,2021-06-15 14:48:27,2021-06-15 14:48:38,Kiosk,To Go,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+67,629,0.45,0.0,0.0,0.0,5.0,True,2021-06-15 14:49:42,2021-06-15 14:49:42,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+68,632,0.0,0.0,1.0,0.0,2.0,True,2021-06-15 14:55:19,2021-06-16 13:54:06,Kiosk,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+69,647,0.0,0.0,1.0,0.9,10.0,False,2021-06-15 15:07:52,2021-06-15 15:08:00,Kiosk,To Go,Open,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+70,648,0.0,0.0,0.0,0.0,10.0,True,2021-06-15 15:07:55,2021-06-15 15:07:55,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+71,654,0.0,0.0,1.2,0.18,2.0,False,2021-06-15 15:11:14,2021-06-15 15:11:34,Kiosk,To Go,Open,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+73,675,0.85,0.85,0.0,0.0,10.0,True,2021-06-15 15:40:49,2021-06-15 15:41:18,Quick Service,To Go,Open,True,5bb4aa5bf7598f4c0140f4ccd764d451,Catuus,Beow,False,False
+74,684,1.36,1.36,0.0,0.0,16.0,True,2021-06-15 15:54:26,2021-06-15 15:54:38,Quick Service,To Go,Closed,True,5bb4aa5bf7598f4c0140f4ccd764d451,Catuus,Beow,False,False
+75,706,0.43,0.43,0.0,0.0,5.0,True,2021-06-15 16:22:33,2021-06-15 16:22:52,Quick Service,To Go,Closed,True,5bb4aa5bf7598f4c0140f4ccd764d451,Catuus,Beow,False,False
+76,728,0.0,0.0,0.0,0.0,11.0,True,2021-06-15 17:23:53,2021-06-15 17:34:40,Table Service,To Go,Closed,True,c7baeecdff8626617f779f592124d532,Porciu,Beowulfifor,False,False
+77,735,0.51,0.51,0.0,0.0,6.0,False,2021-06-15 17:41:31,2021-06-15 17:41:32,Quick Service,To Go,Open,True,5bb4aa5bf7598f4c0140f4ccd764d451,Catuus,Beow,False,False
+78,752,0.2,0.2,0.0,0.0,2.0,True,2021-06-15 21:25:17,2021-06-16 19:30:56,Table Service,To Go,Closed,True,c7baeecdff8626617f779f592124d532,Porciu,Beowulfifor,False,False
+79,765,1.01,0.1,0.0,1.0,10.0,True,2021-06-15 22:28:08,2021-06-15 22:39:50,Table Service,To Go,Closed,True,8a52552a385b10e5c92ccd9dd03cc0ff,1Vilius,Eoforela,False,False
+80,797,0.4,0.4,0.0,0.0,4.0,True,2021-06-16 04:00:46,2021-06-16 06:48:25,Table Service,Delivery,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+81,810,0.4,0.4,0.0,0.0,4.0,True,2021-06-16 04:40:04,2021-06-16 04:40:15,Table Service,Delivery,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+82,811,0.5,0.5,0.0,0.0,5.0,True,2021-06-16 04:40:22,2021-06-16 04:51:53,Table Service,Drive Through,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+83,812,0.4,0.4,0.0,0.0,4.0,True,2021-06-16 04:40:39,2021-06-16 04:51:55,Table Service,Catering,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+84,813,0.02,0.02,0.0,0.0,2.0,True,2021-06-16 04:43:30,2021-06-16 04:48:07,Table Service,To Go,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+85,814,0.3,0.3,0.0,0.0,3.0,True,2021-06-16 04:48:24,2021-06-16 04:48:37,Table Service,To Go,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+86,819,0.5,0.5,0.0,0.0,5.0,True,2021-06-16 05:03:35,2021-06-16 05:11:57,Table Service,Delivery,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+87,821,0.0,0.0,0.0,0.0,0.0,False,2021-06-16 05:05:49,2021-06-16 06:48:17,Table Service,Delivery,Closed,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+88,823,1.0,1.0,0.0,0.0,10.0,False,2021-06-16 05:13:06,2021-06-16 05:41:16,Table Service,Delivery,Open,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+89,824,1.0,1.0,0.0,0.0,10.0,False,2021-06-16 05:14:03,2021-06-16 05:41:18,Table Service,Delivery,Open,True,b1d35c7a9d4448446a8c0520ffca19e8,Nuciuscus,Beowulre,False,False
+90,825,0.5,0.5,0.0,0.0,5.0,True,2021-06-16 05:36:08,2021-06-16 05:37:20,Quick Service,Eat In,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+91,826,1.5,1.5,0.0,0.0,15.0,True,2021-06-16 06:01:32,2021-06-16 06:55:32,Quick Service,Eat In,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+92,835,0.0,0.0,0.0,0.0,12.77,False,2021-06-16 07:13:54,2021-06-16 07:13:54,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+93,838,1.0,1.0,0.0,0.0,10.0,True,2021-06-16 07:24:48,2021-06-16 07:25:05,Retail,Eat In,Closed,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+94,849,2.0,2.0,0.0,0.0,20.0,False,2021-06-16 07:39:48,2021-06-16 08:37:24,Table Service,To Go,Open,True,fc62e60cb8116d5352556eb7852b4f7d,Verusius,Herebod,False,False
+95,858,0.0,0.0,0.0,0.0,12.77,False,2021-06-16 08:17:23,2021-06-16 08:17:23,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+96,860,0.0,0.0,0.0,0.0,25.54,False,2021-06-16 08:21:32,2021-06-16 08:21:32,Web Order,Eat In,Open,True,300dde5d2b8de22a151c1cf7b69e0ad9,NaN,NaN,False,False
+97,870,1.1,1.1,0.0,0.0,11.0,False,2021-06-16 08:30:45,2021-06-16 08:31:36,Table Service,Pickup,Open,True,544175190b725367d38c6eb225c8094c,Merginius,Hruntecg,False,False
+98,1199,0.0,0.0,0.0,0.0,5.0,False,2021-06-16 13:41:00,2021-06-16 13:44:03,Quick Service,To Go,Open,True,ff86468151e610c384e78651ca8e1381,Pompeiusus,Mundingbel,False,False
+99,1207,2.7,2.7,0.0,0.0,26.99,False,2021-06-16 13:47:03,2021-06-16 13:47:24,Table Service,To Go,Open,True,1d406341cefea8fa704c83c92214e2c3,Mamerius,Weohstanes,False,False
+101,1500,0.08,0.0,8.75,0.89,82.36,True,2021-06-17 14:37:57,2021-06-17 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+102,1501,0.37,1.3,4.64,1.41,58.27,True,2021-06-17 14:37:57,2021-06-17 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+103,1502,0.02,0.0,5.89,1.22,52.5,True,2021-06-17 14:37:57,2021-06-17 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+105,1504,0.9,2.95,5.58,0.23,25.08,True,2021-06-17 14:37:57,2021-06-17 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+106,1505,0.51,0.0,1.93,1.55,81.24,True,2021-06-17 14:37:57,2021-06-17 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+114,1514,0.84,1.06,3.69,2.52,63.35,True,2021-06-19 14:37:57,2021-06-19 14:48:00,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,True,False
+108,1507,0.81,3.56,0.69,2.52,50.74,True,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+109,1508,0.03,6.91,1.08,1.95,6.85,True,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,To Go,Open,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+104,1503,0.53,16.0,1.43,1.7,12.13,True,2021-06-17 14:37:57,2021-06-18 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+110,1510,0.67,6.91,4.2,2.24,77.37,True,2021-06-18 14:37:57,2021-06-18 14:37:57,Kiosk,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+111,1511,0.38,7.0,1.86,0.34,87.69,True,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,Eat In,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+112,1512,0.02,8.96,0.16,0.77,82.79,True,2021-06-18 14:37:57,2021-06-18 14:37:57,Quick Service,Delivery,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+100,1208,0.0,0.0,0.0,0.0,34.99,True,2021-06-16 13:48:43,2021-06-18 14:37:57,Kiosk,To Go,Closed,True,7aa0a231c6d2296b9157721426e8328e,Silanu,Eatsst,False,False
+72,673,0.85,0.85,0.0,0.0,10.0,True,2021-06-15 15:39:56,2021-06-18 14:37:57,Quick Service,To Go,Closed,True,5bb4aa5bf7598f4c0140f4ccd764d451,Catuus,Beow,False,True
+113,1513,0.65,0.57,0.71,0.74,36.74,True,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+115,1515,0.24,1.16,4.25,1.38,69.97,True,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+107,1506,0.33,0.5,0.1,0.2,7.0,True,2021-06-17 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Open,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+116,1516,0.21,1.39,3.56,0.83,26.98,True,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+117,1517,0.25,1.61,3.19,2.21,55.3,True,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+118,1518,0.18,0.76,2.11,1.57,42.05,True,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
+119,1519,0.97,0.8,3.57,0.88,83.7,True,2021-06-19 14:37:57,2021-06-19 14:37:57,Quick Service,To Go,Closed,True,b2b3a5aeea52f8aec90a61e336723de3,Natous,Hereio,False,False
